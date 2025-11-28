@@ -1,7 +1,7 @@
 REM #Replace for absolute path to xes file with the log, take into account that it should not contain any NaN value, otherwise MINERful can fail
-set INPUT_LOG=C:\Users\ccagu\Documents\Trabajo\EstanciaDeUtrecht\pipelineExplanationsClean\Data\road_traffic\Road_Traffic_Fine_Management_Process.xes
+set INPUT_LOG=C:\Users\ccagu\Documents\Trabajo\EstanciaDeUtrecht\CAiSE2026\explaining-variants-ne\Data\sepsis\sepsis.xes
 REM # Replace for absolute path to csv file where the output of MINERful should be stored, take into account that will be heavy
-set RESULTS=C:\Users\ccagu\Documents\Trabajo\EstanciaDeUtrecht\pipelineExplanationsClean\Data\road_traffic\minerfulSliderOutput_rtfm.csv 
+set RESULTS=C:\Users\ccagu\Documents\Trabajo\EstanciaDeUtrecht\CAiSE2026\explaining-variants-ne\Data\sepsis\output_minerful_sepsis.csv
 
 REM # PATHs to MINERful and Java
 REM #Replace for absolute path to your java version
