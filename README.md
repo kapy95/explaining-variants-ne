@@ -4,15 +4,20 @@ All the following steps have been verified in a machine with Windows 11. Take in
 
 Preparations (this is a video to help with the preparations: https://www.youtube.com/watch?v=oG-0JqnjRsc):
 1. Please install anaconda: https://www.anaconda.com/download
-2. Download the data folders from one drive link (beware that it may take a while): https://uses0-my.sharepoint.com/:f:/g/personal/ccagudo_us_es/IgAAVXJj3C-mTaKvWQOepaoxAbGJLZG6oDDsgIdYP7N-GvE?e=PbLJgF
-3. Leave the folders of the one drive link in the data folder
-4. Open an anaconda prompt and execute the following command:
+2. Download:
+   1 The sepsis log from here in xes format and leave it in /data/sepsis directory: https://data.4tu.nl/articles/dataset/Sepsis_Cases_-_Event_Log/12707639
+   2.The road fines log from here in xes format and leave it in /data/rtfm: https://data.4tu.nl/articles/dataset/Road_Traffic_Fine_Management_Process/12683249
+   3. The datasets with the mined confidences from here: https://zenodo.org/records/17753577
+      1. Leave mined_rtfm_relabelled_confidences.csv in /data/rtfm
+      2. Leave mined_sepsis_confidences_SIRS2OrMore.csv in /data/sepsis
+4. Leave the folders of the one drive link in the data folder
+5. Open an anaconda prompt and execute the following command:
     1. Change the current directory to the project folder (cd directory)
     2. Create a python environment with the following command: conda create --name naturalexamples python=3.8.0 (it may take a while)
     3. Activate the environment: conda activate naturalexamples
     4. Install the dependencies of the project by executing the following command: pip install -r requirements.txt 
-5. Install any software related to use python jupyter notebooks (such as visual studio code) or use anaconda.
-6. Optional (required if you want to mine the rules for all cases): install JRE+7 and download the MINERful repository from here: https://github.com/Process-in-Chains/MINERful
+6. Install any software related to use python jupyter notebooks (such as visual studio code) or use anaconda.
+7. Optional (required if you want to mine the rules for all cases): install JRE+7 and download the MINERful repository from here: https://github.com/Process-in-Chains/MINERful
 
 How to run the approach to obtain the prototypes and boundary cases for a given log using our approach:
 0. Make sure that the folders of the one drive link are inside the data folder
