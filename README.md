@@ -5,11 +5,12 @@ All the following steps have been verified in a machine with Windows 11. Take in
 Preparations (this is a video to help with the preparations: https://www.youtube.com/watch?v=oG-0JqnjRsc):
 1. Please install anaconda: https://www.anaconda.com/download
 2. Download:
-   1 The sepsis log from here in xes format and leave it in /data/sepsis directory: https://data.4tu.nl/articles/dataset/Sepsis_Cases_-_Event_Log/12707639
-   2.The road fines log from here in xes format and leave it in /data/rtfm: https://data.4tu.nl/articles/dataset/Road_Traffic_Fine_Management_Process/12683249
+   1. The sepsis log from here in xes format and leave it in /data/sepsis directory: https://data.4tu.nl/articles/dataset/Sepsis_Cases_-_Event_Log/12707639
+   2. The road fines log from here in xes format and leave it in /data/rtfm: https://data.4tu.nl/articles/dataset/Road_Traffic_Fine_Management_Process/12683249
    3. The datasets with the mined confidences from here: https://zenodo.org/records/17753577
       1. Leave mined_rtfm_relabelled_confidences.csv in /data/rtfm
       2. Leave mined_sepsis_confidences_SIRS2OrMore.csv in /data/sepsis
+   4. Extract the zip file in /data/rtfm and leave the extracted folder there
 4. Leave the folders of the one drive link in the data folder
 5. Open an anaconda prompt and execute the following command:
     1. Change the current directory to the project folder (cd directory)
