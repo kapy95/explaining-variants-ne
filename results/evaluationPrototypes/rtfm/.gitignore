@@ -1,0 +1,9 @@
+Data/
+__pycache__/
+*.csv
+*.joblib
+*.txt
+*.json
+*.xlsx
+*.png
+*.pdf
