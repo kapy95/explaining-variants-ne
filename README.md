@@ -4,7 +4,7 @@ All the following steps have been verified in a machine with Windows 11. Take in
 
 Preparations (this is a video to help with the preparations: https://www.youtube.com/watch?v=oG-0JqnjRsc):
 1. Please install anaconda: https://www.anaconda.com/download
-2. Download the data folders from one drive link (beware that it may take a while): https://uses0-my.sharepoint.com/:f:/g/personal/ccagudo_us_es/IgAAVXJj3C-mTaKvWQOepaoxAbGJLZG6oDDsgIdYP7N-GvE?e=t9y1Ee
+2. Download the data folders from one drive link (beware that it may take a while): https://uses0-my.sharepoint.com/:f:/g/personal/ccagudo_us_es/IgAAVXJj3C-mTaKvWQOepaoxAbGJLZG6oDDsgIdYP7N-GvE?e=PbLJgF
 3. Leave the folders of the one drive link in the data folder
 4. Open an anaconda prompt and execute the following command:
     1. Change the current directory to the project folder (cd directory)
