@@ -1,3 +1,4 @@
+
 __pycache__/
 *.xes
 *.csv
@@ -7,3 +8,5 @@ __pycache__/
 *.xlsx
 *.png
 *.pdf
+
+!Data/road_traffic/A_Fresh_Approach_to_Analyze_Process_Outcomes
