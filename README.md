@@ -58,7 +58,7 @@ How to generate the datasets from the output of MINERful (optional):
 2. Change the route_output_slider_sepsis or the route_output_slider_rtfm to the directory where you have the ouyput csv of MINERful (this file should be in the same directory of the repository)
 3. Execute the prep_rtfm.py or prep_sepsis_file.oy
 
-The following video can be helpful for the mining and the dataset generation: https://youtu.be/yhSZ8_vp0fo. Nevertheless, it is not necessary to perform these steps with the data contained in one drive folder
+The following video can be helpful for the mining and the dataset generation: https://youtu.be/yhSZ8_vp0fo. Nevertheless, it is not necessary to perform these steps if you have downloaded the datatsets from zenodo.
 
 
 
